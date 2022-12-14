@@ -1,0 +1,6 @@
+server :
+  port : 8080
+  release : false
+database :
+  a :
+    uri : localhost
