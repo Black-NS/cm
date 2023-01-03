@@ -4,5 +4,6 @@ go 1.19
 
 require (
 	github.com/BurntSushi/toml v1.2.1
+	gopkg.in/ini.v1 v1.67.0
 	gopkg.in/yaml.v3 v3.0.1
 )

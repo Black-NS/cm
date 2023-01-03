@@ -5,6 +5,16 @@ const (
 	JSON
 	TOML
 	YAML
+	INI
 )
 
 type ConfigureType int
+
+/**
+Mapper
+*/
+
+type INIConfigures struct {
+	SectionName string
+	Configure   interface{}
+}
